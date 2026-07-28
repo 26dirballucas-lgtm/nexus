@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 * {
     box-sizing: border-box;
     padding: 0;
@@ -78,3 +79,59 @@ nav img {
         gap: 12px;
     }
 }
+=======
+.Publicacao {
+    background-color: #150930;
+    border: solid 10px #28154f;
+    border-radius: 25px;
+    padding: 16px;
+    width: 820px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.Publicacao > div {
+    display: grid;
+    grid-template-columns: 40px auto auto;
+    column-gap: 8px;
+    align-items: center;
+}
+
+.nomeAutor {
+    grid-column: 2;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.tempoPost {
+    grid-column: 2;
+}
+
+.nomeJogo {
+    grid-column: 3;
+    grid-row: 1 / 3;
+    justify-self: start;
+    margin-left: 12px;
+    background-color: rgba(200, 24, 208, 14%);
+    padding: 4px 8px 4px 8px;
+    border: solid rgba(200, 24, 208, 9%) 1px;
+    border-radius: 6px;
+    font-weight: bold;
+}
+
+.iconeAutor{
+    grid-row: 1 / 3;
+    border-radius: 100px;
+    width: 40px;
+    height: 40px;
+}
+
+.Publicacao p {
+    color: #ffffff;
+    font-size: 14px;
+}
+
+.Publicacao span {
+    color: #ffffff;
+}
+>>>>>>> 61a3db8ee42fa60d287743ccb0ae4a71fc29817e
